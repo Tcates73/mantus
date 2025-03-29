@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Docker .NET Attach (Preview)",
+            "type": "docker",
+            "request": "attach",
+            "platform": "netCore",
+            "sourceFileMap": {
+                "/src": "${workspaceFolder}"
+            }
+        },
+
+``
+
+        {
             "name": "Python Debug: File",
             "type": "debugpy",
             "request": "launch",
@@ -17,8 +29,9 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": []
-        },
+            "args": [],
+            "redirectOutput": true
+        }
         {
             "name": "Python Debug: Pyramid Application",
             "type": "debugpy",

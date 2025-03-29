@@ -1,0 +1,79 @@
+# Rifty Ricky Installation Guide
+
+## Windows Installation
+
+### System Requirements
+- Windows 10 or later
+- 4GB RAM minimum (8GB recommended)
+- 500MB free disk space
+- Internet connection for initial setup
+
+### Installation Steps
+1. Download the Rifty Ricky installer from the provided link
+2. Double-click the downloaded file `RiftyRicky-Setup-1.0.0.exe`
+3. Follow the on-screen instructions in the installation wizard
+4. Choose your preferred installation location or use the default
+5. Select whether to create a desktop shortcut
+6. Click "Install" to begin the installation process
+7. Once installation is complete, click "Finish" to launch the application
+
+### Troubleshooting
+- If you encounter a "Windows protected your PC" message, click "More info" and then "Run anyway"
+- If the application fails to start, ensure you have the latest version of Windows updates installed
+- For any installation errors, try running the installer as administrator
+
+## macOS Installation
+
+### System Requirements
+- macOS 10.13 (High Sierra) or later
+- 4GB RAM minimum (8GB recommended)
+- 500MB free disk space
+- Internet connection for initial setup
+
+### Installation Steps
+1. Download the Rifty Ricky DMG file from the provided link
+2. Double-click the downloaded file `Rifty-Ricky-1.0.0.dmg`
+3. When the DMG window opens, drag the Rifty Ricky icon to the Applications folder
+4. Close the DMG window
+5. Open your Applications folder and double-click Rifty Ricky to launch
+6. If prompted about opening an application downloaded from the internet, click "Open"
+
+### Troubleshooting
+- If you see "App cannot be opened because it is from an unidentified developer", right-click (or Control+click) on the app and select "Open"
+- If the application doesn't appear in Applications, try remounting the DMG file and copying again
+- For permission issues, open System Preferences > Security & Privacy and allow the application
+
+## Getting Started
+
+After installation, Rifty Ricky will launch automatically. Here's how to get started:
+
+1. **Create Your First Template**
+   - Click on the "Editor" tab in the sidebar
+   - Fill in the template title, description, and content
+   - Add relevant tags to categorize your template
+   - Click "Save Template" to store it in your library
+
+2. **Manage Your Templates**
+   - The "Templates" tab shows all your saved templates
+   - Use the search bar to find specific templates
+   - Filter templates by tags
+   - Edit, export, or delete templates using the action buttons
+
+3. **Export Templates**
+   - Go to the "Export" tab
+   - Select one or more templates to export
+   - Choose your preferred format (TXT, PDF, HTML)
+   - Configure export options
+   - Click "Export" to save your templates
+
+4. **Learn More**
+   - Visit the "Learn" tab for tutorials and guides
+   - Explore best practices for creating effective prompts
+   - Check out example templates for different use cases
+
+## Support
+
+If you encounter any issues or have questions about using Rifty Ricky, please contact support at support@example.com or visit our help center at https://example.com/help.
+
+Thank you for choosing Rifty Ricky for your prompt template management needs!
+

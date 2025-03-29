@@ -1,0 +1,15 @@
+// commit: e337073ebea5426be97a08b43316460e2e4e8abb
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        // Target ES2020 to enable modern JavaScript features like optional chaining and nullish coalescing.
+        "target": "ES2020"
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -13,51 +13,39 @@
                 "/src": "${workspaceFolder}"
             }
         },
-
-``
-
         {
-            "name": "Python Debug: File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Python Debug: File with Args",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
             "console": "integratedTerminal",
-            "args": [],
-            "redirectOutput": true
-        }
-        {
-            "name": "Python Debug: Pyramid Application",
-            "type": "debugpy",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
             "request": "launch",
-            "module": "pyramid.scripts.pserve",
-            "args": [
-                "${workspaceFolder}\\development.ini"
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
             ],
-            "console": "integratedTerminal"
+            "type": "node"
         },
+
         {
-            "name": "Python Debug: Remote Attach",
-            "type": "debugpy",
-            "request": "attach",
-            "connect": {
-                "host": "localhost",
-                "port": 5678
-            },
-            "justMyCode": true
-        },
-        {
-            "name": "Chrome Debug",
+            "name": "Launch Chrome",
+            "request": "launch",
             "type": "chrome",
-            "request": "attach",
-            "port": 9222,
+            "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Node",
+            "program": "${workspaceFolder}/index.js"
         }
     ]
 }

@@ -5,7 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Current File",
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "name": "Python Debug",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
@@ -13,9 +21,9 @@
         },
         {
             "name": "Attach to Chrome",
-            "port": 9222,
-            "request": "attach",
             "type": "chrome",
+            "request": "attach",
+            "port": 9222,
             "webRoot": "${workspaceFolder}"
         }
     ]

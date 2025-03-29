@@ -1,0 +1,5 @@
+{
+    // ...existing settings...
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+}
